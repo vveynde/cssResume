@@ -1,7 +1,49 @@
+/* Color Palette
+#2B2D42
+#8D99AE
+#EDF2F4
+#61FF7E
+#EF233C
+-------------------------------------*/
+
+/* Global Styles
+-------------------------------------*/
 body {
-    background: silver;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Caveat', cursive;
+}
+
+a {
+    color: #61FF7E;
+} 
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Header & Footer Styles
+-------------------------------------*/
+header, footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
 }
 
 img {
     width: 100%;
+}
+
+/* Work Experience
+-------------------------------------*/
+.work {
+    background: #EDF2F4;
+}
+
+/* Education
+-------------------------------------*/
+.education {
+    background: #8D99AE;
 }
