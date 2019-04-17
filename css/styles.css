@@ -33,6 +33,11 @@ a:hover {
     text-decoration: none;
 }
 
+.content-wrap {
+    width: 950px;
+    margin: 0 auto;
+}
+
 /* Header & Footer Styles
 -------------------------------------*/
 header, footer {
