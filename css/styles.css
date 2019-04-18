@@ -10,6 +10,7 @@
 -------------------------------------*/
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 h1, h2 {
@@ -23,6 +24,7 @@ h1 {
 
 h2 {
     font-size: 40px;
+    margin-top: 0;
 }
 
 a {
@@ -34,8 +36,9 @@ a:hover {
 }
 
 .content-wrap {
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 /* Header & Footer Styles
@@ -45,12 +48,25 @@ header, footer {
     color: #8D99AE;
 }
 
+/* Header */
+
 header h1, header h2 {
     color: #EDF2F4;
 }
 
 img {
     width: 50%;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
 }
 
 /* Work Experience
