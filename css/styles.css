@@ -55,7 +55,8 @@ header h1, header h2 {
 }
 
 img {
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
 }
 
 /* Footer */
